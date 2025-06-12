@@ -984,9 +984,9 @@ section {
 .bg-overlay-dark:before {
 	background-color: rgba(47, 47, 47, 0.95);
 }
-
+/* edicion pra el paralax */
 .bg-overlay-theme:before {
-	background-color: rgba(255, 197, 39, 0.9);
+	background-color: rgba(43, 43, 41, 0.755);
 }
 
 .bg-overlay-gradient:before {

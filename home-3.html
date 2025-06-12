@@ -659,7 +659,68 @@
 	<!-- .container end -->
 </section>
 
-<!--Slider 2-->
+<section id="cta-4" class="cta cta-4 bg-overlay bg-overlay-theme text-center" style="background-color: rgb(61,58,49 / 90%) !important; max-height: 430px !important;">
+	<div class="bg-section" style="background-color: rgb(61,58,49 / 90%) !important;">
+		<img src="assets/images/call/fondo_3.jpg" alt="Background"/>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4 hidden-xs">
+					<img src="assets/images/call/hero_3.png" alt="cta" style="max-width: 300px;">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-8 " style="text-align: left; font-family: raleway !important; text-decoration: none !important;">
+				<h3 class="text-capitalize mb-0 cta-p" style="color:#f9f9f9 !important;">¿NECESITAS EQUIPO O SERVICIO HOY MISMO?.</h3>
+				<p style="font-style: none; font-style: normal; font-family: raleway !important; font-size: 25px !important;">
+					En REDIMAK, estamos listos para responder
+				</p>
+				<p style="font-style: none; font-style: normal; font-family: raleway !important; font-size: 20px !important;">
+					Ya sea que busques maquinaria, refacciones o una solución urgente en campo,
+					estamos aquí para ayudarte con certeza, compromiso y atención inmediata.
+				</p>
+				<a class="btn btn-primary btn-black" href="#" data-toggle="modal">Contactanos!</a>
+				<!-- Modal -->
+				<div class="modal fade model-quote" id="amodel-quote" tabindex="-1" role="dialog" aria-labelledby="ariamodelquote">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+								</button>
+								<div class="model-icon">
+									<i class="lnr lnr-apartment"></i>
+								</div>
+								<div class="model-divider">
+									<div class="model-title">
+										<p>Don’t Hesitate To ask</p>
+										<h6>Contactanos!</h6>
+									</div>
+								</div>
+							</div>
+							<!-- .model-header end -->
+							<div class="modal-body">
+								<form id="pop-quote-form2" action="assets/php/sendpopquote2.php" method="post">
+									<input type="text" class="form-control" name="quote-name" id="name" placeholder="Your Name" required/>
+									<input type="email" class="form-control" name="quote-email" id="email" placeholder="Email" required/>
+									<input type="text" class="form-control" name="quote-telephone" id="telephone" placeholder="Telephone" required/>
+									<textarea class="form-control" name="quote-message"  id="quote" placeholder="Quote Details" rows="2" required></textarea>
+									<button type="submit" class="btn btn-primary btn-black btn-block">Submit Inquiry</button>
+									<!--Alert Message-->
+									<div id="pop-quote-result2" class="mt-xs">
+									</div>
+								</form>
+							</div>
+							<!-- .model-body end -->
+						</div>
+					</div>
+				</div>
+				<!-- .model-quote end -->
+			</div>
+			<!-- .col-md-8 end -->
+		</div>
+		<!-- .row end -->
+	</div>
+	<!-- .container end -->
+</section>
 
 
 <section id="shortcode-5" class="shortcode-5 pb-50">
@@ -848,60 +909,7 @@
 
 <!-- Call To Action #4
 ============================================= -->
-<section id="cta-4" class="cta cta-4 bg-overlay bg-overlay-theme text-center">
-	<div class="bg-section" >
-		<img src="assets/images/call/3.jpg" alt="Background"/>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
-				<p class="text-capitalize mb-0 cta-p">¿NECESITAS EQUIPO O SERVICIO HOY MISMO?.</p>
-				<h2 class="mb-xs">Work With Us !</h2>
-				<p class="mb-50">Yellow Hats has a team of specialists capable of maximizing the result and delivering projects of any complexity and scope. Our employees are acclaimed experts in such areas as project construction, management, technology and engineering.</p>
-				<a class="btn btn-primary btn-black" href="#" data-toggle="modal" data-target="#amodel-quote" id="ariamodelquote">rquest a quote</a>
-				<!-- Modal -->
-				<div class="modal fade model-quote" id="amodel-quote" tabindex="-1" role="dialog" aria-labelledby="ariamodelquote">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-								</button>
-								<div class="model-icon">
-									<i class="lnr lnr-apartment"></i>
-								</div>
-								<div class="model-divider">
-									<div class="model-title">
-										<p>Don’t Hesitate To ask</p>
-										<h6>rquest a quote</h6>
-									</div>
-								</div>
-							</div>
-							<!-- .model-header end -->
-							<div class="modal-body">
-								<form id="pop-quote-form2" action="assets/php/sendpopquote2.php" method="post">
-									<input type="text" class="form-control" name="quote-name" id="name" placeholder="Your Name" required/>
-									<input type="email" class="form-control" name="quote-email" id="email" placeholder="Email" required/>
-									<input type="text" class="form-control" name="quote-telephone" id="telephone" placeholder="Telephone" required/>
-									<textarea class="form-control" name="quote-message"  id="quote" placeholder="Quote Details" rows="2" required></textarea>
-									<button type="submit" class="btn btn-primary btn-black btn-block">Submit Inquiry</button>
-									<!--Alert Message-->
-									<div id="pop-quote-result2" class="mt-xs">
-									</div>
-								</form>
-							</div>
-							<!-- .model-body end -->
-						</div>
-					</div>
-				</div>
-				<!-- .model-quote end -->
-			</div>
-			<!-- .col-md-8 end -->
-		</div>
-		<!-- .row end -->
-	</div>
-	<!-- .container end -->
-</section>
+
 <!-- #cta-4 end -->
 
 <!-- Shortcode #6 
