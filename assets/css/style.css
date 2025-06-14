@@ -2999,8 +2999,8 @@ ul.mega-menu {
 .header-3 .navbar-fixed-top.affix .navbar-header {
 	height: 70px;
 }
-.header-3 .navbar .logo, .header-3 .navbar-fixed-top.affix .navbar-header, {
-line-height:94px;
+.header-3 .navbar .logo, .header-3 .navbar-fixed-top.affix .navbar-header {
+	line-height:94px;
 }
 
 .header-3.style-2 .navbar-fixed-top {
@@ -7874,8 +7874,8 @@ ul.comments-list ul.comment-children {
 	position: relative;
 	margin-bottom: 20px;
 }
-.widget-recent .recent-entry:last-of-type, .widget-best-product .best-product:last-of-type, {
-margin-bottom: 0
+.widget-recent .recent-entry:last-of-type, .widget-best-product .best-product:last-of-type {
+	margin-bottom: 0
 }
 
 .widget-recent .recent-entry img,
