@@ -89,25 +89,12 @@
 											<div class="model-divider">
 												<a class="btn btn-primary btn-black" href="https://wa.me/526182653755" target="_blank">
 													<div class="model-title">
-
 														<h6>!Cotiza Ahora!</h6>
 													</div>
 												</a>
 											</div>
 										</div>
 										<!-- .model-header end -->
-										<div class="modal-body">
-											<form id="head-quote-form" action="assets/php/sendheadquote.php" method="post">
-												<input type="text" class="form-control" name="quote-name" id="quote-name" placeholder="Your Name" required/>
-												<input type="email" class="form-control" name="quote-email" id="quote-email" placeholder="Email" required/>
-												<input type="text" class="form-control" name="quote-telephone" id="quote-telephone" placeholder="Telephone" required/>
-												<textarea class="form-control" name="quote-message"  id="quote-message" placeholder="Quote Details" rows="2" required></textarea>
-												<button type="submit" class="btn btn-primary btn-black btn-block">Submit Inquiry</button>
-												<!--Alert Message-->
-												<div id="head-quote-result" class="mt-xs">
-												</div>
-											</form>
-										</div>
 										<!-- .model-body end -->
 									</div>
 								</div>
@@ -489,7 +476,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12">
-				<div class="cta-form" style="color: red !important; width: 25% !important;">
+				<div class="cta-form" style="color: red !important;">
 					<a  href="#" data-toggle="modal">
 						<div class="cta cta-2 bg-theme">
 							<a href="https://wa.me/526182653755" target="_blank">
@@ -668,7 +655,7 @@
 
 <section id="cta-4" class="cta cta-4 bg-overlay bg-overlay-theme text-center" style="background-color: rgb(61,58,49 / 90%) !important; max-height: 430px !important;">
 	<div class="bg-section" style="background-color: rgb(61,58,49 / 90%) !important;">
-		<img src="assets/images/call/fondo_3.jpg" alt="Background"/>
+		<img src="assets/images/call/fondo_3.jpg" alt="Background" style="margin-left: 600px !important; "/>
 	</div>
 	<div class="container">
 		<div class="row">
@@ -946,7 +933,7 @@
 			<!-- Client Item -->
 			<div class="col-xs-12 col-sm-4 col-md-4">
 				<div>
-					<img class="img-responsive center-block" src="assets/images/clients/fresnillo_plc.png" alt="brand" style="height: 100px !important;">
+					<img class="img-responsive center-block clients-fix" src="assets/images/clients/fresnillo_plc.png" alt="brand">
 				</div>
 			</div>
 			<!-- .col-md-2 end -->
@@ -957,7 +944,7 @@
 			<!-- Client Item -->
 			<div class="col-xs-12 col-sm-4 col-md-4">
 				<div>
-					<img class="img-responsive center-block" src="assets/images/clients/logobacismini1.png" alt="brand" style="height: 100px !important;">
+					<img class="img-responsive center-block clients-fix" src="assets/images/clients/logobacismini1.png" alt="brand">
 				</div>
 			</div>
 			<!-- .col-md-2 end -->
@@ -966,13 +953,13 @@
 
 			<div class="col-xs-12 col-sm-4 col-md-4">
 				<div>
-					<img class="img-responsive center-block" src="assets/images/clients/luca_mining.png" alt="brand" style="height: 100px !important;">
+					<img class="img-responsive center-block clients-fix" src="assets/images/clients/luca_mining.png" alt="brand">
 				</div>
 			</div>
 			<!-- .col-md-2 end -->
 		</div>
 
-		<div class="row" style="margin-top: 100px !important;">
+		<div class="row">
 			<!-- Client Item -->
 
 			<!-- .col-md-3 end -->
@@ -980,7 +967,7 @@
 			<!-- Client Item -->
 			<div class="col-xs-12 col-sm-4 col-md-offset-2 col-md-4">
 				<div>
-					<img class="img-responsive center-block" src="assets/images/clients/penoles.png" alt="brand" style="height: 150px !important;">
+					<img class="img-responsive center-block clients-fix" src="assets/images/clients/penoles.png" alt="brand">
 				</div>
 			</div>
 			<!-- .col-md-3 end -->
@@ -996,7 +983,7 @@
 			<!-- Client Item -->
 			<div class="col-xs-12 col-sm-4 col-md-4">
 				<div>
-					<img class="img-responsive center-block" src="assets/images/clients/ag_big.png" alt="brand" style="height: 150px !important;">
+					<img class="img-responsive center-block clients-fix" src="assets/images/clients/ag_big.png" alt="brand">
 				</div>
 			</div>
 
@@ -1248,6 +1235,11 @@ jQuery(document).ready(function() {
 		border-radius: 50%;
 		margin: 10px auto;
 		display: block;
+	}
+
+	.clients-fix{
+		height: 100px !important; 
+		margin-top: 40px !important;
 	}
 </style>
 </body>
