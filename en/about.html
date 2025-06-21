@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+<!-- Document Meta
+============================================= -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--IE Compatibility Meta-->
+<meta name="author" content="wplly" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="construction html5 template">
+<link href="../../assets/images/favicon/apple-icon.png" rel="icon">
+
+<!-- Fonts
+============================================= -->
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CRaleway:100,200,300,400,500,600,700,800%7CDroid+Serif:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+<!-- Stylesheets
+============================================= -->
+<link href="../../assets/css/external.css" rel="stylesheet">
+<!-- Extrnal CSS -->
+<link href="../../assets/css/bootstrap.min.css" rel="stylesheet">
+<!-- Boostrap Core CSS -->
+<link href="../../assets/css/style.css" rel="stylesheet">
+<!-- Style CSS -->
+<!-- RS5.0 Main Stylesheet -->
+<link rel="stylesheet" type="text/css" href="../../assets/revolution/css/settings.css">
+<link rel="stylesheet" type="text/css" href="../../assets/revolution/css/layers.css">
+<link rel="stylesheet" type="text/css" href="../../assets/revolution/css/navigation.css"> 
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+<!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+<!-- Document Title
+    ============================================= -->
+<title>Redimak</title>
+</head>
+<body>
+<div class="preloader">
+	<div class="spinner">
+		<div class="bounce1">
+		</div>
+		<div class="bounce2">
+		</div>
+		<div class="bounce3">
+		</div>
+	</div>
+</div>
+<header id="navbar-spy" class="full-header header-3">
+	<!-- afix style="background-color: rgb(255 255 255 / 70%) !important";-->
+	<nav id="primary-menu" class="navbar navbar-fixed-top style-1 affix">
+		<div id="top-bar" class="top-bar hidden-xs">
+			<div class="container">
+				<div class="row" style="color: black !important;">
+					<div class="col-xs-12 col-sm-4 col-md-4">
+						<ul class="list-inline top-widget">
+							<li class="top-social" ">
+								<a href="https://www.facebook.com/REDIMAKmx/"><i class="fa fa-facebook" style="color: black !important;"></i></a>
+								<a href="https://www.instagram.com/redimakmx/"><i class="fa fa-instagram" style="color: black !important;"></i></a>
+								<a href="https://linktr.ee/REDIMAK"><i class="fa fa-asterisk" style="color: black !important;"></i></a>
+							</li>
+						</ul>
+					</div>
+					<!-- .col-md-6 end -->
+					
+					<div class="col-xs-12 col-sm-8 col-md-8 text-right">
+						<ul class="list-inline top-contact" style="color: black !important;">
+							<li style="color: black !important;">
+								<p style="color: black !important;">Phone:
+									<a href="tel:+52 618 265 37 55"><span style="color: black !important;">+52 618 265 37 55</span></a>
+								</p>
+							</li>
+							<li>
+								<p style="color: black !important;">Email:
+									<a href="mailto:contacto@redimak.com.mx"><span style="color: black !important;">contacto@redimak.com.mx</span></a>
+								</p>
+							</li>
+							
+							<!-- Modal -->
+							<div class="modal fade model-quote" id="hmodel-quote" tabindex="-1" role="dialog" aria-labelledby="hmodelquote">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+											</button>
+											<div class="model-divider">
+												<a class="btn btn-primary btn-black" href="https://wa.me/526182653755" target="_blank">
+													<div class="model-title">
+
+														<h6>GET A QUOTE NOW!</h6>
+													</div>
+												</a>
+											</div>
+										</div>
+										<!-- .model-header end -->
+										<div class="modal-body">
+											<form id="head-quote-form" action="../../assets/php/sendheadquote.php" method="post">
+												<input type="text" class="form-control" name="quote-name" id="quote-name" placeholder="Your Name" required/>
+												<input type="email" class="form-control" name="quote-email" id="quote-email" placeholder="Email" required/>
+												<input type="text" class="form-control" name="quote-telephone" id="quote-telephone" placeholder="Telephone" required/>
+												<textarea class="form-control" name="quote-message"  id="quote-message" placeholder="Quote Details" rows="2" required></textarea>
+												<button type="submit" class="btn btn-primary btn-black btn-block">Submit Inquiry</button>
+												<!--Alert Message-->
+												<div id="head-quote-result" class="mt-xs">
+												</div>
+											</form>
+										</div>
+										<!-- .model-body end -->
+									</div>
+								</div>
+							</div>
+							<!-- .model-quote end -->
+						</li>
+						</ul>
+					</div>
+					<!-- .col-md-6 end -->
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="logo" href="https://redimak.com.mx">
+						<img src="../../assets/images/logo/logo-redimak3.png" alt="Redimak">
+					</a>
+				</div>
+				
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-left">
+						<li class="has-dropdown">
+							<a href="/" style="color: black !important;">Home</a>
+						</li>
+						<!-- li end -->
+						<li class="has-dropdown">
+							<a href="about.html" style="color: black !important;">About</a>
+							
+						</li>
+						<!-- li end -->
+						<li class="has-dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color: black !important;">Services</a>
+							
+						</li>
+						<!-- li end -->
+						<li class="has-dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color: black !important;">Blog</a>
+						</li>
+						<!-- li end -->
+						<li class="has-dropdown">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle" style="color: black !important;">Contact</a>
+							
+						</li>
+						<li class="has-dropdown">
+							<a href="https://redimak.com.mx" style="color: black !important;">Spanish Version</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+
+<!-- Page Title
+============================================= -->
+<section class="bg-overlay bg-overlay-gradient pb-0">
+	<div class="bg-section" >
+		<img src="assets/images/page-title/8.jpg" alt="Background"/>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div class="page-title title-1 text-center">
+					<div class="title-bg">
+						<h2>Nuestra Historia</h2>
+					</div>
+				</div>
+				<!-- .page-title end -->
+			</div>
+			<!-- .col-md-12 end -->
+		</div>
+		<!-- .row end -->
+	</div>
+	<!-- .container end -->
+</section>
+
+<!-- Shortcode #1 
+============================================= -->
+<section id="shotcode-1" class="shotcode-1 text-center-xs text-center-sm">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+						<div class="heading heading-4">
+							<div class="heading-bg heading-right">
+								<p class="mb-0">Acerca de REDIMAK</p>
+								<h2>NUESTRA HISTORIA</h2>
+							</div>
+						</div>
+						<!-- .heading end -->
+					</div>
+				</div>
+			</div>
+			<!-- .col-md-12 end -->
+			<div class="col-xs-12 col-sm-12 col-md-6">
+				<!-- <h3 class="color-heading mb-sm font-18">Yellow Hats is a leading developer of A-grade commercial, industrial and residential projects in USA.</h3> -->
+				<p class="mb-60">REDIMAK nacimos con una herramienta en la mano y la convicción de hacer las cosas bien. Desde nuestros inicios como especialistas en reparación de ,aquinaria pesada, hemos evolucionado hasta convertirnos en un referente en diagnóstico, mantenimiento, reparación y venta de maquinaria pesada, atendiendo a sectores como minería, construcción e industria pesada.
+Nuestra historia es de crecimiento honesto, de sumar personas comprometidas y de convertir cada servicio en una prueba de lo que somos: confiables, técnicos y profundamente humanos. Hoy, estamos presentes en campo, en la profundidad de la mina, en taller y en donde más nos necesitan.
+</p>
+				<a class="btn btn-secondary mb-30-xs" href="#">NUESTROS SERVICIOS</a>
+			</div>
+			<!-- .col-md-6 end -->
+			<div class="col-xs-12 col-sm-12 col-md-6">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6 feature feature-1">
+						<div class="feature-icon">
+							<i class="lnr lnr-calendar-full"></i>
+						</div>
+						<h4 class="text-uppercase">Disponibilida real</h4>
+						<p>Atendemos en campo y en taller. Cuando nos llamas, respondemos.</p>
+					</div>
+					<!-- .col-md-6 end -->
+					<div class="col-xs-12 col-sm-6 col-md-6 feature feature-1">
+						<div class="feature-icon">
+							<i class="lnr lnr-briefcase"></i>
+						</div>
+						<h4 class="text-uppercase">Técnicos con vocación</h4>
+						<p>No solo estamos cualificados: contamos con experiencia, compromiso y pasión por lo que hacemos.</p>
+					</div>
+					<!-- .col-md-6 end -->
+					<div class="col-xs-12 col-sm-6 col-md-6 feature feature-1 mb-0">
+						<div class="feature-icon">
+							<i class="lnr lnr-database"></i>
+						</div>
+						<h4 class="text-uppercase">Precios justos y claros</h4>
+						<p>ySabemos lo que vale tu maquinaria. Por eso cotizamos con responsabilidad y transparencia.</p>
+					</div>
+					<!-- .col-md-6 end -->
+					<div class="col-xs-12 col-sm-6 col-md-6 feature  feature-1 mb-0">
+						<div class="feature-icon">
+							<i class="lnr lnr-cart"></i>
+						</div>
+						<h4 class="text-uppercase">Soluciones, no promesas</h4>
+						<p>Cada reparación está pensada para que dure. No parchamos, resolvemos.</p>
+					</div>
+				</div>
+				<!-- .row end -->
+			</div>
+			<!-- .col-md-6 end -->
+		</div>
+		<!-- .row end -->
+	</div>
+	<!-- .container end -->
+</section>
+
+
+<section id="cta-4" class="cta cta-4 bg-overlay bg-overlay-theme text-center" style="background-color: rgb(61,58,49 / 90%) !important; max-height: 430px !important;">
+	<div class="bg-section" style="background-color: rgb(61,58,49 / 90%) !important;">
+		<img src="assets/images/call/parallax_us.png" alt="Background" style="margin-left: 600px !important;"/>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-4 hidden-xs">
+					<img src="assets/images/call/hero_3.png" alt="cta" style="max-width: 300px;">
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-8 mt-10" style="text-align: left; font-family: 'Montserrat', Arial, sans-serif; text-decoration: none !important;">
+				<h3 class="text-capitalize mb-0 cta-p" style="color:#f9f9f9 !important;">LA CALIDAD ES PARTE DE QUIÉNES SOMOS.</h3>
+				<p style="font-style: none; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; font-size: 20px !important;">
+					En REDIMAK, la calidad se construye con atención, experiencia y compromiso.
+				</p>
+				<p style="font-style: none; text-align: justify; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; font-size: 18px !important;">
+					Cada reparación, diagnóstico o venta que realizamos cumple con altos estándares técnicos y cuenta con la supervisión directa de nuestros especialistas en campo. Nos enfocamos en ofrecer soluciones duraderas, útiles y pensadas para el largo plazo. Por eso, evaluamos cada paso, damos seguimiento y buscamos siempre mejorar lo que hacemos.
+					<br>
+					- Redimak
+				</p>
+				<a class="btn btn-primary btn-black" href="https://wa.me/526182653755" target="_blank">Contáctanos!</a>
+				<!-- Modal -->
+				<div class="modal fade model-quote" id="amodel-quote" tabindex="-1" role="dialog" aria-labelledby="ariamodelquote">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+								</button>
+								<div class="model-icon">
+									<i class="lnr lnr-apartment"></i>
+								</div>
+								<div class="model-divider">
+									<div class="model-title">
+										<p>Don’t Hesitate To ask</p>
+										<h6>Contáctanos!</h6>
+									</div>
+								</div>
+							</div>
+							<!-- .model-header end -->
+							<div class="modal-body">
+								<form id="pop-quote-form2" action="assets/php/sendpopquote2.php" method="post">
+									<input type="text" class="form-control" name="quote-name" id="name" placeholder="Your Name" required/>
+									<input type="email" class="form-control" name="quote-email" id="email" placeholder="Email" required/>
+									<input type="text" class="form-control" name="quote-telephone" id="telephone" placeholder="Telephone" required/>
+									<textarea class="form-control" name="quote-message"  id="quote" placeholder="Quote Details" rows="2" required></textarea>
+									<button type="submit" class="btn btn-primary btn-black btn-block">Submit Inquiry</button>
+									<!--Alert Message-->
+									<div id="pop-quote-result2" class="mt-xs">
+									</div>
+								</form>
+							</div>
+							<!-- .model-body end -->
+						</div>
+					</div>
+				</div>
+				<!-- .model-quote end -->
+			</div>
+			<!-- .col-md-8 end -->
+		</div>
+		<!-- .row end -->
+	</div>
+	<!-- .container end -->
+</section>
+
+
+<section id="shortcode-5" class="shortcode-5 pb-50">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div class="heading heading-3 text-center">
+					<div class="heading-bg">
+						<p class="mb-0">ELIGE REDIMAK</p>
+						<h2>¿PORQUÉ ELEGIRNOS?</h2>
+					</div>
+				</div>
+				<!-- .heading end -->
+			</div>
+			<!-- .col-md-12 end -->
+		</div>
+		<!-- .row end -->
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<div class="panel-group accordion" id="accordion02" role="tablist" aria-multiselectable="true">
+					
+					<!-- Panel 01 -->
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingOne">
+							<h4 class="panel-title">
+								<a class="accordion-toggle" role="button" data-toggle="collapse" data-parent="#accordion02" href="#collapse02-1" aria-expanded="true" aria-controls="collapse02-1"> Acerca de Nosotros </a>
+								<span class="icon"></span>
+							</h4>
+						</div>
+						<div id="collapse02-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body">
+								Desde nuestros inicios, hemos crecido con una
+								sola misión: brindar soluciones técnicas reales con
+								un enfoque humano. Hoy, REDIMAK es sinónimo
+								de confianza para empresas del sector minero e
+								industrial en todo el norte del país.
+							</div>
+						</div>
+					</div>
+					
+					<!-- Panel 02 -->
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingTwo">
+							<h4 class="panel-title">
+								<a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion02" href="#collapse02-2" aria-expanded="false" aria-controls="collapse02-2"> Nuestra Misión </a>
+							</h4>
+						</div>
+						<div id="collapse02-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<div class="panel-body">
+								Atender a nuestros clientes con honestidad,
+								compromiso y certeza, ofreciendo diagnóstico,
+								reparación, mantenimiento y venta de
+								maquinaria con altos estándares técnicos y
+								atención personalizada.
+							</div>
+						</div>
+					</div>
+					
+					<!-- Panel 03 -->
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingThree">
+							<h4 class="panel-title">
+								<a class="accordion-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion02" href="#collapse02-3" aria-expanded="false" aria-controls="collapse02-3">  Nuestros Objetivos </a>
+							</h4>
+						</div>
+						<div id="collapse02-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							<div class="panel-body">
+								Ser el aliado técnico de mayor confianza en el
+								sector, expandiendo nuestro alcance con un
+								equipo capacitado, procesos eficientes y un
+								servicio que supere las expectativas en cada
+								proyecto.
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End .Accordion-->
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 hidden-xs">
+				<div class="feature">
+					<img class="img-responsive" src="assets/images/features/2.jpg" alt="feature" style="width: 90% !important; margin-left: 5% !important;">
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<div class="feature">
+					<h4 class="text-uppercase">Confiabilidad</h4>
+					<p >Respondemos cuando se nos necesita. Nuestros
+						procesos y equipo técnico están enfocados en
+						resolver, no en prometer.
+					</p>
+				</div>
+				<div class="feature">
+					<h4 class="text-uppercase">Especialización real</h4>
+					<p>
+						Entendemos la maquinaria porque la trabajamos
+						todos los días. Nuestro conocimiento no viene de
+						manuales, viene del campo.
+					</p>
+				</div>
+				<div class="feature last">
+					<h4 class="text-uppercase">Calidad comprobada</h4>
+					<p>
+						Cada servicio y refacción que entregamos está
+						respaldado por revisión técnica y seguimiento
+						continuo. Lo que vendemos, lo usamos.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Shortcode #9 
+============================================= -->
+<section id="clients" class="shortcode-9 pb-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div class="heading heading-2 text-center">
+					<div class="heading-bg">
+						<p class="mb-0">ELLOS CONFÍAN EN REDIMAK</p>
+						<h2>NUESTROS CLIENTES</h2>
+					</div>
+				</div>
+				<!-- .heading end -->
+			</div>
+			<!-- .col-md-12 end -->
+		</div>
+		<!-- .row end -->
+		<div class="row">
+			<!-- Client Item -->
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<div>
+					<img class="img-responsive center-block clients-fix" src="assets/images/clients/fresnillo_plc.png" alt="brand">
+				</div>
+			</div>
+			<!-- .col-md-2 end -->
+			
+			<!-- Client Item -->
+			<!--md-2 end -->
+			
+			<!-- Client Item -->
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<div>
+					<img class="img-responsive center-block clients-fix" src="assets/images/clients/logobacismini1.png" alt="brand">
+				</div>
+			</div>
+			<!-- .col-md-2 end -->
+			
+			<!-- Client Item -->
+
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<div>
+					<img class="img-responsive center-block clients-fix" src="assets/images/clients/luca_mining.png" alt="brand">
+				</div>
+			</div>
+			<!-- .col-md-2 end -->
+		</div>
+
+		<div class="row">
+			<!-- Client Item -->
+
+			<!-- .col-md-3 end -->
+			
+			<!-- Client Item -->
+			<div class="col-xs-12 col-sm-4 col-md-offset-2 col-md-4">
+				<div>
+					<img class="img-responsive center-block clients-fix" src="assets/images/clients/penoles.png" alt="brand">
+				</div>
+			</div>
+			<!-- .col-md-3 end -->
+			
+			<!-- Client Item -->
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<div>
+				
+				</div>
+			</div>
+			<!-- .col-md-3 end -->
+			
+			<!-- Client Item -->
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<div>
+					<img class="img-responsive center-block clients-fix" src="assets/images/clients/ag_big.png" alt="brand">
+				</div>
+			</div>
+
+			
+			<!-- .col-md-2 end -->
+		</div>
+		<!-- .row End -->
+	</div>
+	<!-- .container end -->
+</section>
+<!-- #clients end-->
+
+<!-- Call To Action #1
+============================================= -->
+<section id="cta-1" class="cta pb-0">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div class="cta-1 bg-theme">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-1 hidden-xs">
+							<div class="cta-img">
+								<img src="assets/images/call/parallax_us.png" alt="cta" style="max-width: 200px;">
+							</div>
+						</div>
+						<!-- .col-md-2 end -->
+						<div class="col-xs-12 col-sm-12 col-md-7 cta-devider text-center-xs">
+							<div class="cta-desc">
+								<p>¿NECESITAS EQUIPO O SERVICIO HOY MISMO?.</p>
+								<h5>En REDIMAK, estamos listos para responder</h5>
+							</div>
+						</div>
+						<!-- .col-md-7 end -->
+						<div class="col-xs-12 col-sm-12 col-md-2 pull-right pull-none-xs">
+							<div class="cta-action">
+								<a class="btn btn-secondary" href="https://wa.me/526182653755" target="_blank">Contáctanos!</a>
+							</div>
+						</div>
+						<!-- .col-md-2 end -->
+					</div>
+				</div>
+				<!-- .cta-1 end -->
+			</div>
+			<!-- .col-md-12 end -->
+		</div>
+		<!-- .row end -->
+	</div>
+	<!-- .container end -->
+</section>
+<!-- #cta-1 end -->
+
+<footer id="footer" class="footer-1">
+	<!-- Contact Bar
+	============================================= -->
+	<div class="container footer-widgtes">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div class="widgets-contact">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-4 widget">
+							 <a href="https://maps.app.goo.gl/Xm2N1Sjkop6hkyAo8" target="_blank">
+								<div class="widget-contact-icon pull-left">
+									<i class="lnr lnr-map"></i>
+								</div>
+								<div class="widget-contact-info">
+									<p class="text-capitalize text-white">Visit us</p>
+									<p class="text-capitalize" style="padding-left: 110px !important; font-size: 12px !important;">Camino de las Nieves, núm. 218, Los Remedios, Durango, Dgo. C.P. 34100</p>
+									
+								</div>
+							</a>
+						</div>
+						<!-- .widget end -->
+						<div class="col-xs-12 col-sm-12 col-md-4 widget">
+							<div class="widget-contact-icon pull-left">
+								<i class="lnr lnr-envelope"></i>
+							</div>
+							<div class="widget-contact-info">
+								<p class="text-capitalize text-white">Email Us</p>
+								<a href="mailto:contacto@redimak.com.mx" target="_blank"><p class="font-heading">contacto@redimak.com.mx</p></a>
+							</div>
+						</div>
+						<!-- .widget end -->
+						<div class="col-xs-12 col-sm-12 col-md-4 widget">
+							<div class="widget-contact-icon pull-left">
+								<i class="lnr lnr-phone"></i>
+							</div>
+							<div class="widget-contact-info">
+								<p class="text-capitalize text-white">Call Us</p>
+								<a href="tel:+52 618 265 3755"><p class="text-capitalize font-heading">+52 618 265 3755</p></a>
+							</div>
+						</div>
+						<!-- .widget end -->
+					</div>
+					<!-- .row end -->
+				</div>
+				<!-- .widget-contact end -->
+			</div>
+			<!-- .col-md-12 end -->
+		</div>
+		<!-- .row end -->
+	</div>
+	<!-- .container end -->
+	
+	<!-- Widget Section
+	============================================= -->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 widgets-links">
+				<div class="col-xs-12 col-sm-12 col-md-4 widget-about text-center-xs mb-30-xs">
+					<div class="widget-about-logo pull-left pull-none-xs">
+						<img src="../../assets/images/footer-logo.png" alt="logo"/>
+					</div>
+					<div class="widget-about-info">
+						<h5 class="text-capitalize text-white">Redimak</h5>
+						<p class="mb-0">Specialists in the diagnosis, repair, maintenance, and sale of heavy machinery.
+We are the trusted technical partner for mining, construction, and industrial companies. We deliver reliability with every service.</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-3 widget-navigation text-center-xs mb-30-xs">
+					<h5 class="text-capitalize text-white">Navegación</h5>
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-md-6">
+							<ul class="list-unstyled text-capitalize">
+								<li>
+									<a href="#"> Home </a>
+								</li>
+								<li>
+									<a href="#"> About</a>
+								</li>
+								<li>
+									<a href="#"> Services</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-6">
+							<ul class="list-unstyled text-capitalize">
+								<li>
+									<a href="#"> Blog</a>
+								</li>
+								<li>
+									<a href="#"> Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-5 widget-services text-center-xs">
+					<h5 class="text-capitalize text-white">Services</h5>
+					<div class="row">
+						<div class="col-xs-4 col-sm-4 col-md-4">
+							<ul class="list-unstyled text-capitalize">
+								<li>
+									<a href="#"> Specialized Diagnostics</a>
+								</li>
+								<li>
+									<a href="#"> Heavy Machinery Repair</a>
+								</li>
+								<li>
+									<a href="#">Preventive & Corrective Maintenance</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-xs-4 col-sm-4 col-md-4">
+							<ul class="list-unstyled text-capitalize">
+								<li>
+									<a href="#"> Machinery & Supplies Sales</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><div class="widget-social">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-6 mb-30-xs mb-30-sm">
+					<div class="widget-social-info pull-left text-capitalize pull-none-xs mb-15-xs">
+						<p class="mb-0">Follow us<br>
+							Social Networks</p>
+					</div>
+					<div class="widget-social-icon pull-left text-left pull-none-xs">
+						<a href="https://www.facebook.com/REDIMAKmx/">
+							<i class="fa fa-facebook"></i><i class="fa fa-facebook"></i>
+						</a>
+						<a href="https://www.instagram.com/redimakmx/">
+							<i class="fa fa-instagram"></i><i class="fa fa-instagram"></i>
+						</a>
+						<a href="https://linktr.ee/REDIMAK" >
+							<i class="fa fa-asterisk"></i><i class="fa fa-asterisk"></i>
+						</a>
+						
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-6">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Footer Scripts
+============================================= -->
+<script src="../../assets/js/jquery-2.1.1.min.js"></script>
+<script src="../../assets/js/plugins.js?v=1.0.0"></script>
+<script src="../../assets/js/functions.js?v=1.2.0"></script>
+<!-- RS5.0 Core JS Files -->
+<script type="text/javascript" src="../../assets/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
+<script type="text/javascript" src="../../assets/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
+
+<script type="text/javascript" src="../../assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="../../assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="../../assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="../../assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="../../assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="../../assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="../../assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="../../assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript"> 
+jQuery(document).ready(function() { 
+   jQuery("#slider1").revolution({
+      sliderType:"standard",
+      sliderLayout:"auto",
+      delay:6000,
+	  disableProgressBar:"on",
+	  spinner:"off",
+      navigation: {
+		keyboardNavigation:"off",
+		keyboard_direction: "horizontal",
+		mouseScrollNavigation:"off",
+		onHoverStop:"off",
+		arrows: {
+			style:"arrow",
+			enable:true,
+			hide_onmobile:true,
+			hide_onleave:false,
+			tmp:'',
+			left: {
+				h_align:"left",
+				v_align:"bottom",
+				h_offset:110,
+				v_offset:57
+			},
+			right: {
+				h_align:"left",
+				v_align:"bottom",
+				h_offset:150,
+				v_offset:57
+			}
+		}
+	}, 
+      gridwidth:1230,
+      gridheight:800 ,
+	  
+    }); 
+}); 
+</script>
+<style>
+	.testimonial-item {
+		padding: 15px; /* Espacio interno */
+		margin-bottom: 20px; /* Espacio inferior en móviles */
+	}
+
+	.testimonial-content {
+		background: #f9f9f9; /* Fondo opcional */
+		padding: 20px;
+		border-radius: 5px;
+		height: 100%; /* Para igualar alturas */
+	}
+
+	/* Asegurar que las imágenes no sean demasiado grandes */
+	.testimonial-img img {
+		max-width: 80px;
+		border-radius: 50%;
+		margin: 10px auto;
+		display: block;
+	}
+
+    .clients-fix{
+		height: 100px !important; 
+		margin-top: 40px !important;
+	}
+</style>
+</body>
+</html>
