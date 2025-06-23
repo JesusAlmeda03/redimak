@@ -271,26 +271,26 @@
 </section>
 
 
-<section id="cta-4" class="cta cta-4 bg-overlay bg-overlay-theme text-center" style="background-color: rgb(61,58,49 / 90%) !important; max-height: 430px !important; padding-top: 50px;">
+<section id="cta-4" class="cta cta-4 bg-overlay bg-overlay-theme text-center" style="background-color: rgb(61,58,49 / 90%) !important; max-height: 380px !important; padding-top: 20px;">
 	<div class="bg-section" style="background-color: rgb(61,58,49 / 90%) !important;">
 		<img src="../assets/images/call/parallax_us.png" alt="Background" style="margin-left: 600px !important; padding-top: 10px !important;"/>
 	</div>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-4 hidden-xs">
-					<img src="../assets/images/call/hero_3.png" alt="cta" style="max-width: 350px;">
+					<img src="../assets/images/call/hero_3.png" alt="cta" style="max-width: 320px;">
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-8 mt-10" style="text-align: left; font-family: 'Montserrat', Arial, sans-serif; text-decoration: none !important;">
-				<h3 class="text-capitalize mb-0 cta-p" style="color:#f9f9f9 !important;">Commitment to Quality</h3>
-				<p style="font-style: none; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; font-size: 18px !important;">
+				<h3 class="text-capitalize mb-0 cta-p responsive-text_title" style="color:#f9f9f9 !important;">Commitment to Quality</h3>
+				<p class= "responsive-text_p1" style="font-style: none; font-style: normal; font-family: 'Montserrat', Arial, sans-serif;">
 					At REDIMAK, quality is built through attention to detail, experience, and commitment.
 				</p>
-				<p style="font-style: none; text-align: justify; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px !important;">
+				<p class = "responsive-text_p2"style="font-style: none; text-align: justify; font-style: normal; font-family: 'Montserrat', Arial, sans-serif;">
 					Every repair, diagnostic, or sale we carry out meets high technical standards and is directly supervised by our on-site specialists. We focus on delivering long-lasting, practical solutions designed for the long term. That’s why we evaluate every step, follow up thoroughly, and constantly look for ways to improve what we do.
 					<br>
 					- Redimak
 				</p>
-				<a class="btn btn-primary btn-black" href="https://wa.me/526182653755" target="_blank">Contact us!</a>
+				<a class="btn btn-primary" href="https://wa.me/526182653755" target="_blank">Contact us!</a>
 				<!-- Modal -->
 				<div class="modal fade model-quote" id="amodel-quote" tabindex="-1" role="dialog" aria-labelledby="ariamodelquote">
 					<div class="modal-dialog" role="document">
@@ -887,6 +887,38 @@ jQuery(document).ready(function() {
     .clients-fix{
 		height: 100px !important; 
 		margin-top: 40px !important;
+	}
+
+	.responsive-text_title {
+		font-size: 20px !important; /* Tamaño de fuente por defecto */
+	}
+
+	.responsive-text_p1 {
+		font-size: 14px !important; /* Tamaño de fuente por defecto */
+	}
+
+	.responsive-text_p2 {
+		font-size: 14px !important; /* Tamaño de fuente por defecto */
+	}
+
+
+
+	@media (max-width: 991px) {
+		.responsive-text {
+			font-size: 14px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.responsive-text {
+			font-size: 14px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.responsive-text {
+			font-size: 12px;
+		}
 	}
 </style>
 </body>
