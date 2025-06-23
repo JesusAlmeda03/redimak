@@ -261,16 +261,16 @@ Nuestra historia es de crecimiento honesto, de sumar personas comprometidas y de
 					<img src="assets/images/call/hero_3.png" alt="cta" style="max-width: 350px;">
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-8 mt-10" style="text-align: left; font-family: 'Montserrat', Arial, sans-serif; text-decoration: none !important;">
-				<h3 class="text-capitalize mb-0 cta-p" style="color:#f9f9f9 !important;">LA CALIDAD ES PARTE DE QUIÉNES SOMOS.</h3>
-				<p style="font-style: none; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; font-size: 18px !important;">
+				<h3 class="text-capitalize mb-0 cta-p responsive-text" style="color:#f9f9f9 !important;">LA CALIDAD ES PARTE DE QUIÉNES SOMOS.</h3>
+				<p class = "responsive-text" style="font-style: none; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; ">
 					En REDIMAK, la calidad se construye con atención, experiencia y compromiso.
 				</p>
-				<p style="font-style: none; text-align: justify; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px !important;">
+				<p class="responsive-text" style="font-style: none; text-align: justify; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px !important;">
 					Cada reparación, diagnóstico o venta que realizamos cumple con altos estándares técnicos y cuenta con la supervisión directa de nuestros especialistas en campo. Nos enfocamos en ofrecer soluciones duraderas, útiles y pensadas para el largo plazo. Por eso, evaluamos cada paso, damos seguimiento y buscamos siempre mejorar lo que hacemos.
 					<br>
 					- Redimak
 				</p>
-				<a class="btn btn-primary btn-black" href="https://wa.me/526182653755" target="_blank">Contáctanos!</a>
+				<a class="btn btn-primary" href="https://wa.me/526182653755" target="_blank">Contáctanos!</a>
 				<!-- Modal -->
 				<div class="modal fade model-quote" id="amodel-quote" tabindex="-1" role="dialog" aria-labelledby="ariamodelquote">
 					<div class="modal-dialog" role="document">
@@ -283,9 +283,9 @@ Nuestra historia es de crecimiento honesto, de sumar personas comprometidas y de
 									<i class="lnr lnr-apartment"></i>
 								</div>
 								<div class="model-divider">
-									<div class="model-title">
+									<div class="model-title btn btn-primary">
 										<p>Don’t Hesitate To ask</p>
-										<h6>Contáctanos!</h6>
+										<h6 class = "btn btn-primary">Contáctanos!</h6>
 									</div>
 								</div>
 							</div>
@@ -678,7 +678,7 @@ Nuestra historia es de crecimiento honesto, de sumar personas comprometidas y de
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-6 mb-30-xs mb-30-sm">
 					<div class="widget-social-info pull-left text-capitalize pull-none-xs mb-15-xs">
-						<p class="mb-0">Siguenos<br>
+						<p class="mb-0">Síguenos<br>
 							redes sociales</p>
 					</div>
 					<div class="widget-social-icon pull-left text-left pull-none-xs">
@@ -782,6 +782,28 @@ jQuery(document).ready(function() {
 	.clients-fix{
 		height: 100px !important; 
 		margin-top: 40px !important;
+	}
+
+	.responsive-text {
+		font-size: 11px !important; /* Tamaño de fuente por defecto */
+	}
+
+	@media (max-width: 991px) {
+		.responsive-text {
+			font-size: 14px;
+		}
+	}
+
+	@media (max-width: 767px) {
+		.responsive-text {
+			font-size: 14px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.responsive-text {
+			font-size: 12px;
+		}
 	}
 </style>
 </body>
