@@ -279,12 +279,12 @@
 						data-start="1250" 
 						data-splitin="none" 
 						data-splitout="none" 
-						data-fontsize="['20','17','17','17']"
+						data-fontsize="['20','8','8','8']"
 						data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
 						data-basealign="slide" 
 						data-responsive_offset="on" 
 						data-responsive="off">
-						<a class="btn btn-primary mr-sm" href="#">Nuestros Servicios</a>
+						<a class="btn btn-primary mr-sm text-fix" href="#">Nuestros Servicios</a>
 					</div>
 				</li>
 				
@@ -1163,7 +1163,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-6 mb-30-xs mb-30-sm">
 					<div class="widget-social-info pull-left text-capitalize pull-none-xs mb-15-xs">
-						<p class="mb-0">Siguenos<br>
+						<p class="mb-0">Síguenos<br>
 							redes sociales</p>
 					</div>
 					<div class="widget-social-icon pull-left text-left pull-none-xs">
@@ -1244,30 +1244,56 @@ jQuery(document).ready(function() {
 }); 
 </script>
 <style>
-	.testimonial-item {
-		padding: 15px; /* Espacio interno */
-		margin-bottom: 20px; /* Espacio inferior en móviles */
-	}
+		.testimonial-item {
+			padding: 15px; /* Espacio interno */
+			margin-bottom: 20px; /* Espacio inferior en móviles */
+		}
 
-	.testimonial-content {
-		background: #f9f9f9; /* Fondo opcional */
-		padding: 20px;
-		border-radius: 5px;
-		height: 100%; /* Para igualar alturas */
-	}
+		.testimonial-content {
+			background: #f9f9f9; /* Fondo opcional */
+			padding: 20px;
+			border-radius: 5px;
+			height: 100%; /* Para igualar alturas */
+		}
 
-	/* Asegurar que las imágenes no sean demasiado grandes */
-	.testimonial-img img {
-		max-width: 80px;
-		border-radius: 50%;
-		margin: 10px auto;
-		display: block;
-	}
+		/* Asegurar que las imágenes no sean demasiado grandes */
+		.testimonial-img img {
+			max-width: 80px;
+			border-radius: 50%;
+			margin: 10px auto;
+			display: block;
+		}
 
-	.clients-fix{
-		height: 100px !important; 
-		margin-top: 40px !important;
-	}
+		.clients-fix {
+			height: 100px !important; 
+			margin-top: 40px !important;
+		}
+
+		.text-fix {
+			font-size: 12px !important; /* Tamaño por defecto (móvil first) */
+
+		}
+
+		/* Tablet (768px en adelante) */
+		@media (min-width: 768px) {
+			.text-fix {
+				font-size: 12px !important;
+			}
+		}
+
+		/* Escritorio (992px en adelante) */
+		@media (min-width: 992px) {
+			.text-fix {
+				font-size: 13px !important;
+			}
+		}
+
+		/* Pantallas grandes (1200px en adelante) */
+		@media (min-width: 1200px) {
+			.text-fix {
+				font-size: 13px !important;
+			}
+		}
 </style>
 </body>
 </html>
