@@ -261,11 +261,11 @@ Nuestra historia es de crecimiento honesto, de sumar personas comprometidas y de
 					<img src="assets/images/call/hero_3.png" alt="cta" style="max-width: 350px;">
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-8 mt-10" style="text-align: left; font-family: 'Montserrat', Arial, sans-serif; text-decoration: none !important;">
-				<h3 class="text-capitalize mb-0 cta-p responsive-text" style="color:#f9f9f9 !important;">LA CALIDAD ES PARTE DE QUIÉNES SOMOS.</h3>
-				<p class = "responsive-text" style="font-style: none; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; ">
+				<h3 class="text-capitalize mb-0 cta-p responsive-text_title" style="color:#f9f9f9 !important;">LA CALIDAD ES PARTE DE QUIÉNES SOMOS.</h3>
+				<p class = "responsive-text_p1" style="font-style: none; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; ">
 					En REDIMAK, la calidad se construye con atención, experiencia y compromiso.
 				</p>
-				<p class="responsive-text" style="font-style: none; text-align: justify; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; font-size: 16px !important;">
+				<p class="responsive-text_p2" style="font-style: none; text-align: justify; font-style: normal; font-family: 'Montserrat', Arial, sans-serif; ">
 					Cada reparación, diagnóstico o venta que realizamos cumple con altos estándares técnicos y cuenta con la supervisión directa de nuestros especialistas en campo. Nos enfocamos en ofrecer soluciones duraderas, útiles y pensadas para el largo plazo. Por eso, evaluamos cada paso, damos seguimiento y buscamos siempre mejorar lo que hacemos.
 					<br>
 					- Redimak
@@ -784,25 +784,59 @@ jQuery(document).ready(function() {
 		margin-top: 40px !important;
 	}
 
-	.responsive-text {
+	.responsive-text_title {
+		font-size: 20px !important; /* Tamaño de fuente por defecto */
+	}
+
+	.responsive-text_p1 {
+		font-size: 16px !important; /* Tamaño de fuente por defecto */
+	}
+
+	.responsive-text_p2 {
 		font-size: 14px !important; /* Tamaño de fuente por defecto */
 	}
 
+
+
 	@media (max-width: 991px) {
-		.responsive-text {
-			font-size: 14px;
+		.responsive-text_title {
+			font-size: 20px !important; /* Tamaño de fuente por defecto */
+		}
+
+		.responsive-text_p1 {
+			font-size: 16px !important; /* Tamaño de fuente por defecto */
+		}
+
+		.responsive-text_p2 {
+			font-size: 16px !important; /* Tamaño de fuente por defecto */
 		}
 	}
 
 	@media (max-width: 767px) {
-		.responsive-text {
-			font-size: 14px;
+		.responsive-text_title {
+			font-size: 20px !important; /* Tamaño de fuente por defecto */
 		}
-	}
+
+		.responsive-text_p1 {
+			font-size: 12px !important; /* Tamaño de fuente por defecto */
+		}
+
+		.responsive-text_p2 {
+			font-size: 12px !important; /* Tamaño de fuente por defecto */
+		}
+		}
 
 	@media (max-width: 480px) {
-		.responsive-text {
-			font-size: 12px;
+		.responsive-text_title {
+			font-size: 12px !important; /* Tamaño de fuente por defecto */
+		}
+
+		.responsive-text_p1 {
+			font-size: 10px !important; /* Tamaño de fuente por defecto */
+		}
+
+		.responsive-text_p2 {
+			font-size: 10px !important; /* Tamaño de fuente por defecto */
 		}
 	}
 </style>
